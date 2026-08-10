@@ -1,0 +1,35 @@
+{
+  "registry_version": "0.1.0",
+  "entries": [
+    {
+      "id": "icfhub:term/000001",
+      "surface_form": "袋詰め",
+      "lang": "ja",
+      "domain": "work",
+      "concepts": [
+        {
+          "concept": "icfhub:concept/d440",
+          "confidence": 0.85
+        }
+      ],
+      "source": "就労支援現場（例示）",
+      "status": "active",
+      "since": "0.1.0"
+    },
+    {
+      "id": "icfhub:term/000002",
+      "surface_form": "共同作業",
+      "lang": "ja",
+      "domain": "work",
+      "concepts": [
+        {
+          "concept": "icfhub:concept/d740",
+          "confidence": 0.87
+        }
+      ],
+      "source": "アセスメント項目（例示）",
+      "status": "active",
+      "since": "0.1.0"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "registry_version": "0.1.0",
+  "entries": [
+    {
+      "id": "who-icf",
+      "name": "ICF（国際生活機能分類）",
+      "publisher": "WHO",
+      "version": "2001（ICF Browser参照）",
+      "url": "https://icd.who.int/dev11/l-icf/en",
+      "license_note": "分類本体はWHOの著作物。本レジストリは再配布しない",
+      "status": "active",
+      "since": "0.1.0"
+    },
+    {
+      "id": "icfhub-support",
+      "name": "ICF HUB 支援・環境語彙",
+      "publisher": "ICF HUB Project",
+      "version": "0.1.0",
+      "license_note": "CC BY 4.0",
+      "status": "active",
+      "since": "0.1.0"
+    }
+  ]
+}

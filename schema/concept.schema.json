@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "icfhub:schema/concept",
+  "title": "Concept",
+  "type": "object",
+  "required": [
+    "id",
+    "codesystem",
+    "code",
+    "label_ja",
+    "layer",
+    "version",
+    "status",
+    "since"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "deprecated"
+      ]
+    },
+    "since": {
+      "type": "string"
+    },
+    "deprecated": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "codesystem": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "label_ja": {
+      "type": "string"
+    },
+    "label_en": {
+      "type": "string"
+    },
+    "layer": {
+      "enum": [
+        "body",
+        "activity",
+        "participation",
+        "environment",
+        "personal",
+        "support"
+      ]
+    },
+    "parent": {
+      "type": "string"
+    },
+    "definition_ref": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "registry_version": "0.1.0",
+  "entries": [
+    {
+      "id": "icfhub:concept/b140",
+      "codesystem": "who-icf",
+      "code": "b140",
+      "label_ja": "注意機能",
+      "layer": "body",
+      "definition_ref": "https://icd.who.int/dev11/l-icf/en",
+      "version": "0.1.0",
+      "status": "active",
+      "since": "0.1.0"
+    },
+    {
+      "id": "icfhub:concept/d440",
+      "codesystem": "who-icf",
+      "code": "d440",
+      "label_ja": "細かな手の使用",
+      "layer": "activity",
+      "definition_ref": "https://icd.who.int/dev11/l-icf/en",
+      "version": "0.1.0",
+      "status": "active",
+      "since": "0.1.0"
+    },
+    {
+      "id": "icfhub:concept/d740",
+      "codesystem": "who-icf",
+      "code": "d740",
+      "label_ja": "公的な対人関係",
+      "layer": "participation",
+      "definition_ref": "https://icd.who.int/dev11/l-icf/en",
+      "version": "0.1.0",
+      "status": "active",
+      "since": "0.1.0"
+    },
+    {
+      "id": "icfhub:concept/e330",
+      "codesystem": "who-icf",
+      "code": "e330",
+      "label_ja": "権限のある立場にある人々",
+      "layer": "environment",
+      "definition_ref": "https://icd.who.int/dev11/l-icf/en",
+      "version": "0.1.0",
+      "status": "active",
+      "since": "0.1.0"
+    },
+    {
+      "id": "icfhub:concept/sup-visual-procedure",
+      "codesystem": "icfhub-support",
+      "code": "sup-visual-procedure",
+      "label_ja": "視覚的作業手順",
+      "layer": "support",
+      "version": "0.1.0",
+      "status": "active",
+      "since": "0.1.0"
+    },
+    {
+      "id": "icfhub:concept/sup-fixed-staff",
+      "codesystem": "icfhub-support",
+      "code": "sup-fixed-staff",
+      "label_ja": "担当者固定",
+      "layer": "support",
+      "version": "0.1.0",
+      "status": "active",
+      "since": "0.1.0"
+    }
+  ]
+}

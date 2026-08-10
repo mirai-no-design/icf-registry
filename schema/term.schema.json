@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "icfhub:schema/term",
+  "title": "Term",
+  "type": "object",
+  "required": [
+    "id",
+    "surface_form",
+    "lang",
+    "concepts",
+    "source",
+    "status",
+    "since"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "deprecated"
+      ]
+    },
+    "since": {
+      "type": "string"
+    },
+    "deprecated": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "surface_form": {
+      "type": "string"
+    },
+    "lang": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "concepts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "concept"
+        ],
+        "properties": {
+          "concept": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    }
+  }
+}

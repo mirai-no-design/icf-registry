@@ -1,0 +1,24 @@
+{
+  "title": "ICF Registry: A minimal vocabulary registry for ICF-based semantic interoperability",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "description": "A small registry of ICF code references, support/environment vocabularies, field terms, and mappings from organization-specific codes. By design it does no clever processing: entries carry only ID, label, meaning reference, version, mapping and source. Part of the ICF HUB project.",
+  "creators": [
+    {
+      "name": "Mirai no Design Inc.",
+      "affiliation": "Fukui, Japan"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "ICF",
+    "semantic interoperability",
+    "open specification",
+    "registry",
+    "exchange protocol",
+    "defensive publication",
+    "welfare",
+    "employment support"
+  ],
+  "language": "jpn"
+}

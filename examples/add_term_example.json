@@ -1,0 +1,12 @@
+{
+  "surface_form": "品出し",
+  "lang": "ja",
+  "domain": "work",
+  "concepts": [
+    {
+      "concept": "icfhub:concept/d440",
+      "confidence": 0.7
+    }
+  ],
+  "source": "○○事業所での使用例。PRにはこのsourceの記載が必須"
+}

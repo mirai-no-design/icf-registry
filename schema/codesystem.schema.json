@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "icfhub:schema/codesystem",
+  "title": "CodeSystem",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "publisher",
+    "status",
+    "since"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "deprecated"
+      ]
+    },
+    "since": {
+      "type": "string"
+    },
+    "deprecated": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "license_note": {
+      "type": "string"
+    }
+  }
+}

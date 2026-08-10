@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "この仕様を引用する場合は、以下の情報をお使いください。"
+title: "ICF Registry: A minimal vocabulary registry for ICF-based semantic interoperability"
+authors:
+  - name: "Mirai no Design Inc."
+version: "0.1.0"
+date-released: "2026-08-25"
+license: CC-BY-4.0
