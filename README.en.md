@@ -1,5 +1,5 @@
 # icf-registry
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21871591.svg)](https://doi.org/10.5281/zenodo.21871591)
 *[日本語版 / Japanese](README.md)*
 
 **An address book of shared vocabulary ── a small registry of ICF code references, support codes, field terms, and mappings**

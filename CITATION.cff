@@ -4,5 +4,6 @@ title: "ICF Registry: A minimal vocabulary registry for ICF-based semantic inter
 authors:
   - name: "Mirai no Design Inc."
 version: "0.1.0"
+doi: "10.5281/zenodo.21871591"
 date-released: "2026-08-10"
 license: CC-BY-4.0

@@ -1,5 +1,5 @@
 # icf-registry
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21871591.svg)](https://doi.org/10.5281/zenodo.21871591)
 *[English](README.en.md)*
 
 **共通語彙の住所録 ── ICFコード・支援コード・関連語彙・対応関係の小さなレジストリ**
